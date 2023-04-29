@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'ied';
+    src: url('font/AwalRamadhan-eZ2WB.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #003056;
+    font-family: 'ied';
+}
+
+.continer {
+    width: 100%;
+    height: 100vh;
+}
+
+.back {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.ketupat {
+    z-index: 1;
+    width: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+.lampu {
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(255, 183, 0);
+    color:rgb(6, 121, 6);
+    line-height: .9;
+}
+
+h1 {
+    z-index: 1;  
+}
+
+p {
+    z-index: 1;
+}
+
+
+footer {
+    z-index: 1;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
